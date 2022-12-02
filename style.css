@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0; 
+}
+
+.logo img{
+    height: 2.35cm;
+}
+
+.navbar{
+    margin-top: 0.25cm;
+    width: 30.5cm;
+    margin-left: 5cm;
+    
+}
+
+.navbar ul
+{
+    margin-top:-2.5cm;
+    float: right;
+    margin-right: 20px;    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0.8px;
+}
+
+.navbar ul li a{
+    color:#8088a4;
+    text-decoration: none;
+    
+}
+
+.navbar ul .reklam250tl a
+{
+   color:#666d86; 
+    margin-right: 7cm;
+}
+
+.searchBar
+{
+    margin-top: 2cm;
+    margin-right: 7cm;
+    height: 0.85cm;
+    width: 11cm;
+    background-color:#f5f5f5;
+    border-radius: 5px;
+    border-color:#8a91ab;
+}
+
+.online_alisveris{
+    margin-left: -6.5cm;
+   height: 1.3cm; 
+}
+.afisler{
+    margin-left: -2cm;
+    margin-right: 2cm;
+    height: 1.3cm; 
+ }
+
+.girisYap{
+    margin-left: -2cm;
+    margin-right: 1cm;
+    height: 1.3cm; 
+ }
+ .sepet
+ {
+    height: 1.3cm;
+ }
+ 
+ .Kampanyalar{
+    background-color: #8088a4;
+    color:white;
+ }
