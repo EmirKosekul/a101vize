@@ -26,6 +26,7 @@
 }
 .div1{
     margin-top: 1cm;
+    border-bottom-color:#8088a4;
 }
 .div2{
     margin-top: -2cm;
@@ -33,15 +34,17 @@
  }
 
 .navbar ul li a{
-    color:#8088a4;
-    text-decoration: none;
-    
+    text-decoration: none;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
-
+.div1texts{
+   color:#8088a4;
+}
 .navbar ul .reklam250tl a
 {
    color:#666d86; 
-    margin-right: 7cm;
+    margin-right: 10cm;
 }
 
 .searchBar
@@ -53,6 +56,61 @@
     border-radius: 5px;
     border-color:#8a91ab;
 }
+.online_alisveris{
+   border:none;
+   background-color: white;
+   height: 1.3cm;
+   width: 180px;
+   height: 40px;
+   align-items: center;
+   gap: 8px;
+   padding: 9px 0;
+   font-size: 14px;
+   text-align: center;
+   letter-spacing: .2px;
+   text-decoration: none;
+   color: #59617c;
+   margin-left: 50px;
+}
+.afisler{
+   border:none;
+   background-color: white;
+   height: 1.3cm;
+   width: 70px;
+   height: 40px;
+   align-items: center;
+   gap: 8px;
+   padding: 9px 0;
+   font-size: 14px;
+   text-align: center;
+   letter-spacing: .2px;
+   text-decoration: none;
+   color: #59617c;
+   margin-left: -0.3cm;
+}
+.girisYap{
+   border-color: #8088a4;
+   border-radius: 1mm;
+   background-color: white;
+   height: 1.3cm;
+   width: 120px;
+   height: 50px;
+   align-items: center;
+   gap: 8px;
+   padding: 9px 0;
+   font-size: 14px;
+   text-align: center;
+   letter-spacing: .2px;
+   text-decoration: none;
+   color: #59617c;
+   margin-left: 1.2cm;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.girisYap a{
+   font-size: smaller;
+   font-weight: bold;
+}
  .sepet
  {
     height: 1.3cm;
@@ -63,11 +121,16 @@
     border-radius: 1mm;
     width: 120px;
     height: 40px;
+    margin-left: 1.5cm;
  }
+
  
  .Kampanyalar{
     background-color: #8088a4;
     color:white;
+    padding: 5px;
+    border-radius: 1mm;
+    font-size: small;
  }
 
  .div3 button{
@@ -75,7 +138,12 @@
     padding: 0.3cm;
     border-color: #f5f5f5;
     border:none;
-    
+    color:#4a4a4a;
+    padding: 15px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left:-10px;
+    font-size:14px;
  }
  .container{
     background-color: white;
